@@ -6,7 +6,7 @@
 }
 
 .signup-box{
-   width: 50%;
+   width: 45%;
     background-color: white;
     margin: 150px auto;
     padding: 20px 30px;  
@@ -33,15 +33,15 @@
     border-radius: 8px;
     width: 100%;
     border: .5px solid #111;
+    outline: none;
 }
 
 
 .signup-box .name-container .FirstName p{
-    font-size: .6rem;
+    font-size: .7rem;
 }
 
 .signup-box .name-container .LastName{
-    font-size: 0.8rem;
     width: 50%;
     margin-left: 20px;
 }
@@ -51,8 +51,29 @@
     border-radius: 8px;
     width: 100%;
     border: .5px solid #111;
+    outline: none;
 }
 
 .signup-box .name-container .LastName p{
-    font-size: .6rem;
+    font-size: .7rem;
+}
+
+.signup-box .Email-container{
+ display: flex;
+ flex-direction: column;
+}
+
+.signup-box .Email-container p{
+  font-size: .7rem;
+
+}
+
+
+.signup-box .Email-container input{
+   
+    outline: none;
+    padding : 10px;
+    border-radius: 8px;
+    border: .5px solid #111;
+
 }
