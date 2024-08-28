@@ -209,29 +209,29 @@
         margin-top: 34px;
     }
 
-    .signup-box .footer .check {
+    .signup-box .footer .check{
         display: flex;
         flex-direction: row;
         align-items: center;
 
     }
 
-    .signup-box .footer .check input {
+    .signup-box .footer .check .title{
         display: flex;
         flex-direction: row;
+        align-items: center;
 
     }
 
-    .signup-box .footer .check span {
+
+
+    .signup-box .footer .check .title p {
         margin-left: 10px;
         font-size: .8rem;
-        text-align: center;
+        
     }
 
 
-    .signup-box .footer input {}
-
-    .signup-box .footer span {}
 
     .signup-box .footer button {
         margin-top: 15px;
@@ -327,8 +327,8 @@
     /*----------------Footer-------------*/
 
 
-    .signup-box .footer .check span {
-        margin-left: 10px;
+    .signup-box .footer .check p {
+        
         font-size: .6rem;
         text-align: start;
         
