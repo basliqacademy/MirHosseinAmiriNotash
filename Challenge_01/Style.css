@@ -9,8 +9,9 @@
         width: 48%;
         background-color: white;
         margin: 0 auto;
-        margin-top: 50px;
-        padding: 20px 30px;
+        margin-top: 15px;
+
+        padding: 25px 30px;
         border-radius: 8px;
         position: relative;
     }
@@ -18,6 +19,7 @@
     .signup-box .title {
         display: flex;
         font-size: .7rem;
+
     }
 
     .signup-box .title .star {
@@ -82,6 +84,7 @@
     .signup-box .Email-container {
         display: flex;
         flex-direction: column;
+        margin-top: 15px;
     }
 
     .signup-box .Email-container p {
@@ -103,8 +106,21 @@
 
     .signup-box .QueryType-continer {
         display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .signup-box .QueryType-continer .title {
+        margin-top: 15px;
+
+
+    }
+
+    .signup-box .QueryType-continer .query-main {
+        display: flex;
         flex-direction: row;
-        margin-left: 5px;
+
 
     }
 
@@ -122,7 +138,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        
+
 
 
 
@@ -162,35 +178,68 @@
         font-size: .7rem;
     }
 
-    .signup-box .Message-Constainer{
-       display: flex;
-       flex-direction: column;
+
+    /*----------------Message-------------*/
+
+
+    .signup-box .Message-Constainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
 
     }
 
-    .signup-box .Message-Constainer p{
-         
+
+
+    .signup-box .Message-Constainer p {}
+
+    .signup-box .Message-Constainer input {
+        padding: 50px;
+        border-radius: 8px;
+        border: .5px solid #111;
+        outline: none;
     }
 
-    .signup-box .Message-Constainer input{
-       padding: 50px;
-       border-radius: 8px;
-       border: .5px solid #111;
-       outline: none;
+    /*----------------footer-------------*/
+
+    .signup-box .footer {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 34px;
     }
 
-    .signup-box .footer{
+    .signup-box .footer .check {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
 
     }
 
-    .signup-box .footer input{
-        
+    .signup-box .footer .check input {
+        display: flex;
+        flex-direction: row;
+
     }
 
-    .signup-box .footer span{
-        
+    .signup-box .footer .check span {
+        margin-left: 10px;
+        font-size: .8rem;
+        text-align: center;
     }
 
-    .signup-box .footer button{
-        
+
+    .signup-box .footer input {}
+
+    .signup-box .footer span {}
+
+    .signup-box .footer button {
+        margin-top: 15px;
+        padding: 10px;
+        border-radius: 8px;
+        outline: none;
+        border: none;
+        background-color: rgb(13, 124, 105);
+        color: white;
+        text-align: center;
     }
