@@ -1,6 +1,58 @@
 .signup-container{
+    padding: 25px 35px;
     height: 100vh;
     background-color: rgb(226,241,231); 
  
 }
 
+.signup-box{
+   width: 50%;
+    background-color: white;
+    margin: 150px auto;
+    padding: 20px 30px;  
+    border-radius: 8px;
+    position: relative;
+}
+
+.signup-box .Header{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.name-container{
+   display: flex;
+}
+
+.signup-box .name-container .FirstName{
+  width: 50%;
+}
+
+.signup-box .name-container .FirstName input{
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    border: .5px solid #111;
+}
+
+
+.signup-box .name-container .FirstName p{
+    font-size: .6rem;
+}
+
+.signup-box .name-container .LastName{
+    font-size: 0.8rem;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.signup-box .name-container .LastName input{
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    border: .5px solid #111;
+}
+
+.signup-box .name-container .LastName p{
+    font-size: .6rem;
+}
