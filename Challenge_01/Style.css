@@ -8,7 +8,8 @@
     .signup-box {
         width: 48%;
         background-color: white;
-        margin: 150px auto;
+        margin: 0 auto;
+        margin-top: 50px;
         padding: 20px 30px;
         border-radius: 8px;
         position: relative;
@@ -159,4 +160,37 @@
     .signup-box .QueryType-continer .query2 span {
         margin-left: 5px;
         font-size: .7rem;
+    }
+
+    .signup-box .Message-Constainer{
+       display: flex;
+       flex-direction: column;
+
+    }
+
+    .signup-box .Message-Constainer p{
+         
+    }
+
+    .signup-box .Message-Constainer input{
+       padding: 50px;
+       border-radius: 8px;
+       border: .5px solid #111;
+       outline: none;
+    }
+
+    .signup-box .footer{
+
+    }
+
+    .signup-box .footer input{
+        
+    }
+
+    .signup-box .footer span{
+        
+    }
+
+    .signup-box .footer button{
+        
     }
