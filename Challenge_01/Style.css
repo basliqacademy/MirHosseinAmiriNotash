@@ -243,3 +243,95 @@
         color: white;
         text-align: center;
     }
+
+
+    @media screen and (max-width: 600px) {
+        .signup-box .Header {
+        font-size: 1rem;
+        
+        }
+
+        .signup-box{
+            padding: 18px 30px;
+        }
+
+        .signup-box .title {
+            display: flex;
+            font-size: .8rem;
+    
+        }
+
+        /*----------------Name-------------*/
+
+       .name-container{
+        display: grid;
+        grid-template-columns: 1fr;
+       }
+
+       .signup-box .name-container .FirstName {
+           width: 100%;
+       }
+
+       .signup-box .name-container .LastName {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .signup-box .name-container .FirstName p {
+        font-size: .8rem;
+    }
+
+    .signup-box .name-container .LastName p {
+        font-size: .8rem;
+    }
+
+     /*----------------Email-------------*/
+
+    .signup-box .Email-container p {
+        font-size: .8rem;
+
+    }
+
+ /*----------------QueryType-------------*/
+
+    .signup-box .QueryType-continer .query-main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .signup-box .QueryType-continer .query2 {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .signup-box .QueryType-continer .query1 {
+        width: 100%;
+    }
+
+    .signup-box .QueryType-continer .query1 span {
+        margin-left: 5px;
+        font-size: .8rem;
+    }
+
+    .signup-box .QueryType-continer .query2 span {
+        margin-left: 5px;
+        font-size: .8rem;
+    }
+
+ /*----------------Message-------------*/
+
+    .signup-box .Message-Constainer input {
+        padding: 50px;
+       
+    }
+
+    /*----------------Footer-------------*/
+
+
+    .signup-box .footer .check span {
+        margin-left: 10px;
+        font-size: .6rem;
+        text-align: start;
+        
+    }
+   
+    }
