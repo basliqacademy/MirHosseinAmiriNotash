@@ -19,51 +19,57 @@
 
 
                     <div class="firstName">
+                        <label for="fname">
                         <div class="title">
                             <p>FirstName
                             <p class="star">*</p>
                             </p>
                         </div>
+                    </label>
 
-                        <input type="text">
+                        <input type="text" id="fname">
                     </div>
                     <div class="lastName">
+                        <label for="lname">
                         <div class="title">
                             <p>LastName
                             <p class="star">*</p>
                             </p>
                         </div>
-                        <input type="text">
+                        </label>
+                        <input type="text" id="lname">
                     </div>
                 </div>
                 <div class="email-container">
+                    <label for="email">
                     <div class="title">
-                        <p>Email Address
-                        <p class="star">*</p>
-                        </p>
-                    </div>
-                    <input type="text">
+                            <p>Email Address
+                                <p class="star">*</p>
+                            </p>
+                        </div>
+                    </label>
+                    <input type="email" id="email">
                 </div>
 
 
                 <div class="querytype-continer">
-                    <div class="title">
-                        <p>Query Type
-                        <p class="star">*</p>
-                        </p>
-                    </div>
+                        <div class="title">
+                            <p>Query Type
+                                <p class="star">*</p>
+                            </p>
+                        </div>
                     <div class="query-main">
                         <div class="query1">
-
-
-                            <input type="radio" id="">
-
+                            <input type="radio" id="query1">
+                            <label for="query1">
                             <span for="">General Enquiry</span>
+                        </label>
                         </div>
                         <div class="query2">
-                            <input type="radio">
-
+                            <input type="radio" id="query2">
+                            <label for="query2">
                             <span for="">Support Request</span>
+                            </label>
                         </div>
                     </div>
 
@@ -71,23 +77,27 @@
                 </div>
 
                 <div class="message-constainer">
+                    <label for="description-msg">
                     <div class="title">
                         <p>Message
                         <p class="star">*</p>
                         </p>
                     </div>
-                    <input type="text">
+                </label>
+                    <input type="text" id="description-msg">
                 </div>
                 <div class="footer">
                     <div class="check">
-                        <input type="checkbox">
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">
                         <div class="title">
                             <p for="">I consent being conected by the team<p class="star">*</p></p>
                             
                             
                         </div>
+                    </label>
                     </div>
-                    <button>Sumbit</button>
+                    <input type="submit" class="submit-btn">
                 </div>
                 </form>
             </div>
