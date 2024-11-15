@@ -5,6 +5,7 @@
         --color-Title-Star : hsl(170, 82%, 27%);
         --color-SignupBoxTitle : hsl(0, 0%, 20%);
         --color-border : hsl(0, 0%, 7%);
+        --border-radius-sm: 8px;
     }
     
     
@@ -13,9 +14,9 @@
         width: 48%;
         background-color: var(--BackgroundColor-SignupBox-BG);
         margin: 0 auto;
-        margin-top: 15px;
-        padding: 25px 30px;
-        border-radius: 8px;
+        padding-inline: 25px;
+        padding-block: 30px;
+        border-radius: var(--border-radius-sm);
         position: relative;
     }
 
@@ -52,7 +53,7 @@
 
     .signup-box .name-container .FirstName input {
         padding: 10px;
-        border-radius: 8px;
+        border-radius: var(--border-radius-sm);
         width: 100%;
         border: .5px solid var(--color-border);
         outline: none;
@@ -72,7 +73,7 @@
 
     .signup-box .name-container .LastName input {
         padding: 10px;
-        border-radius: 8px;
+        border-radius: var(--border-radius-sm);
         width: 100%;
         border: .5px solid var(--color-border);
         outline: none;
@@ -100,7 +101,7 @@
 
         outline: none;
         padding: 10px;
-        border-radius: 8px;
+        border-radius: var(--border-radius-sm);
         border: .5px solid var(--color-border);
 
     }
@@ -134,7 +135,7 @@
 
     .signup-box .QueryType-continer .query2 {
         border: .5px solid var(--color-border);
-        border-radius: 8px;
+        border-radius: var(--border-radius-sm);
         padding: 10px;
         margin-left: 10px;
         width: 50%;
@@ -149,7 +150,7 @@
 
     .signup-box .QueryType-continer .query1 {
         border: .5px solid var(--color-border);
-        border-radius: 8px;
+        border-radius: var(--border-radius-sm);
         padding: 10px;
         width: 50%;
         display: flex;
@@ -197,7 +198,7 @@
 
     .signup-box .Message-Constainer input {
         padding: 35px;
-        border-radius: 8px;
+        border-radius: var(--border-radius-sm);
         border: .5px solid var(--color-border);
         outline: none;
     }
@@ -237,7 +238,7 @@
     .signup-box .footer button {
         margin-top: 15px;
         padding: 10px;
-        border-radius: 8px;
+        border-radius: var(--border-radius-sm);
         outline: none;
         border: none;
         background-color: var(--BackgroundColor-submitButton);
