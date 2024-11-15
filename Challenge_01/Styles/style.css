@@ -323,10 +323,11 @@
 
         /*----------------Message-------------*/
 
-        .signup-box .message-constainer  input {
+         /* textarea{
             padding: 50px;
+            background-color: red;
 
-        }
+        } */
 
         /*----------------Footer-------------*/
 
