@@ -1,15 +1,15 @@
 @import url(style.css);
 
 @font-face {
-    font-family: iran;
-    src: url(./fonts/iran.ttf);
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Light.ttf);
 }
 
 
 
 *{
     direction: ltr;
-    font-family: iran;
+    font-family: Roboto , sans-serif;
     box-sizing: border-box;
 }
 
