@@ -7,15 +7,14 @@
 
 
 
-*{
-    direction: ltr;
+*, *::before, *::after{
     font-family: Roboto , sans-serif;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
     font-size: 16px;
-    margin: 0px;
 }
 
 a{
