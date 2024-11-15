@@ -11,10 +11,12 @@
     font-family: Roboto , sans-serif;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 body{
-    font-size: 16px;
+    background-color: var(--BackgroundColor-Page-BG);
+    padding-block: 100px;
 }
 
 a{
