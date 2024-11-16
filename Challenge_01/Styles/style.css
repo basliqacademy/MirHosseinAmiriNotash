@@ -248,8 +248,18 @@
         text-align: center;
     }
 
-
+    @media screen and (max-width: 1024px){
+        .signup-box{
+            width:80%;
+            
+        }
+       
+       
+    }
     @media screen and (max-width: 600px) {
+        .signup-box{
+            width: 86%;
+        }
         .signup-box .header {
             font-size: 1rem;
 
