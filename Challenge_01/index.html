@@ -1,11 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge_01</title>
+    <link rel="stylesheet" href="./Styles/main.css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="signup-box">
+        <form action="">
+          <p class="header">Contact Us</p>
+          <div class="name-container">
+            <div class="firstName">
+              <label for="fname">
+                <div class="title">
+                  <p>
+                    First Name
+                    <span class="star">*</span>
+                  </p>
+                </div>
+              </label>
+
+              <input type="text" id="fname" name="firstname" />
+            </div>
+            <div class="lastName">
+              <label for="lname">
+                <div class="title">
+                  <p>
+                    Last Name
+                    <span class="star">*</span>
+                  </p>
+                </div>
+              </label>
+              <input type="text" id="lname" name="lastname" />
+            </div>
+          </div>
+          <div class="email-container">
+            <label for="email">
+              <div class="title">
+                <p>
+                  Email Address
+                  <span class="star">*</span>
+                </p>
+              </div>
+            </label>
+            <input type="email" id="email" name="email" autocomplete="email" />
+          </div>
+
+          <div class="querytype-continer">
+            <div class="title">
+              <p>
+                Query Type
+                <span class="star">*</span>
+              </p>
+            </div>
+            <div class="query-main">
+              <div class="query1">
+                <input type="radio" id="query1" name="query" />
+                <label for="query1">
+                  <span for="">General Enquiry</span>
+                </label>
+              </div>
+              <div class="query2">
+                <input type="radio" id="query2" name="query" />
+                <label for="query2">
+                  <span for="">Support Request</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="message-constainer">
+            <label for="description-msg">
+              <div class="title">
+                <p>
+                  Message
+                  <span class="star">*</span>
+                </p>
+              </div>
+            </label>
+            <textarea
+              style="resize: vertical; height: 200px"
+              name="description"
+              id="description-msg"
+            ></textarea>
+          </div>
+          <div class="footer">
+            <div class="check">
+              <input type="checkbox" id="checkbox" name="checkbox" />
+              <label for="checkbox">
+                <div class="title">
+                  <p for="">
+                    I consent being conected by the team<span class="star"
+                      >*</span
+                    >
+                  </p>
+                </div>
+              </label>
+            </div>
+            <input type="submit" class="submit-btn" />
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
 </html>
