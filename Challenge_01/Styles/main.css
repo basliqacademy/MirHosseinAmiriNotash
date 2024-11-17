@@ -1,25 +1,24 @@
 @import url(style.css);
 
 @font-face {
-    font-family: Roboto;
-    src: url(../fonts/Roboto-Light.ttf);
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Light.ttf);
 }
 
-
-
-*, *::before, *::after{
-    font-family: Roboto , sans-serif;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 20px;
+*,
+*::before,
+*::after {
+  font-family: Roboto, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
 }
 
-body{
-    background-color: var(--BackgroundColor-Page-BG);
-    padding-block: 100px;
+body {
+  background-color: var(--backgroundcolor-page-bg);
+  padding-block: 100px;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-
